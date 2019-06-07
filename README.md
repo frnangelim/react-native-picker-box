@@ -27,13 +27,13 @@ yarn add react-native-picker-box
 ![Basic example gif android](Images/example-android.gif)|![Basic example gif ios](Images/example-ios.gif)|
 
 
-# Import
+### Import
 
 ```javascript
 import PickerBox from 'react-native-picker-box';
 ```
 
-# Using a react-native-picker-box
+### Using a react-native-picker-box
 
 ```javascript
 export default class App extends Component {
@@ -64,7 +64,7 @@ export default class App extends Component {
 }
 ```
 
-<h2 align="center">Props and Methods</h2>
+<h2 align="left">Props and Methods</h2>
 
 ### Props
 
@@ -85,7 +85,7 @@ Method Name | Arguments | Description
 openPicker  | `null`    | Open picker. Use refs for open Picker [following the example]
 
 
-<h2 align="center">Contributing</h2>
+<h2 align="left">Contributing</h2>
 
 Thanks for being interested on making this package better.
 
