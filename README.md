@@ -24,9 +24,8 @@ yarn add react-native-picker-box
 ### Basic example
 | `ANDROID` | `IOS`
 |-|-|
-![Basic example gif android](Images/example-android.gif)|![Basic example gif ios](Images/example-ios.jpg)|
+![Basic example gif android](Images/example-android.gif)|![Basic example gif ios](Images/example-ios.gif)|
 
-The component is based on FlatList so usage is very similar. Pass a data-array to AppIntroSlider along with a renderItem-function (or you can use the default basic layout).
 
 # Import
 
@@ -101,5 +100,5 @@ react-native run-android or react-native run-ios
 
 ## Author
 
-| [<img src="https://avatars3.githubusercontent.com/u/24841773?s=460&v=4"><br><sub>@duhwcarvalho</sub>](https://github.com/duhwcarvalho) |
+| [<img src="https://avatars0.githubusercontent.com/u/24841773?s=60&v=4"><br><sub>@duhwcarvalho</sub>](https://github.com/duhwcarvalho) |
 | :---: |
