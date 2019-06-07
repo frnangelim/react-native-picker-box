@@ -11,7 +11,7 @@
     * [Methods](#methods)
   * [Contributing](#contributing)
 
-<h2 align="center">Usage</h2>
+<h2 align="left">Usage</h2>
 
 ### Installation
 
