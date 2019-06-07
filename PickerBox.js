@@ -82,7 +82,7 @@ class PickerBox extends Component {
         this._closePicker()
     }
 
-    _openPicker = () => {
+    openPicker = () => {
         this.state.visible ? this._closePicker() : this.setState({ visible: true });
     }
     
