@@ -73,7 +73,7 @@ Name             | Type       | Default  | Required  | Description
 data             | `array`    | `none`   | `Yes`     | Each item should be in the following format: `{label: 'JavaScript', value: 'js'}`
 onValueChange    | `function` | `null`   | `Yes`     | Callback for when an item is selected. This is called with the following parameter: `value`
 selectedValue    | `string`   | `none`   | `No`      | Value matching value of one of the items. Can be a string or an integer.
-maxHeight        | `number`   | `0.27`   | `No`      | Custom maxHeight. Is the maximum height for this component.
+maxHeight        | `number`   | ` -  `   | `No`      | Custom maxHeight. Is the maximum height for this component.
 statusbar        | `boolean`  | `true`   | `No`      | StatusBar overlapping.
 itemTextColor    | `string`   | `#757379`| `No`      | Custom item text color.
 separatorColor   | `string`   | `#757379`| `No`      | Custom separator color.
