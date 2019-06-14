@@ -1,6 +1,6 @@
 {
   "name": "react-native-picker-box",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple and configurable component picker for react native",
   "author": "Eduardo Carvalho <duhw.carvalho@gmail.com>",
   "license": "MIT",
@@ -33,11 +33,11 @@
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.8.3",
-    "react-native": "0.59.9",
     "prop-types": "^15.5.7"
   },
   "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.9",
     "@babel/core": "^7.4.5",
     "@babel/runtime": "^7.4.5",
     "babel-jest": "^24.8.0",
