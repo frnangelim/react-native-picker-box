@@ -34,7 +34,8 @@ class PickerBox extends Component {
         statusbar: PropTypes.bool,
         itemTextColor: PropTypes.string,
         separatorColor: PropTypes.string,
-        prevTextColor: PropTypes.string
+        prevTextColor: PropTypes.string,
+        prevTextLabel: PropTypes.string
     }
 
     static defaultProps = {
@@ -44,7 +45,8 @@ class PickerBox extends Component {
         statusbar: true,
         itemTextColor: '#757379',
         separatorColor: '#757379',
-        prevTextColor: '#572580'
+        prevTextColor: '#572580',
+        prevTextLabel: 'Cancel'
     }
 
     constructor(props){
@@ -98,7 +100,7 @@ class PickerBox extends Component {
 
         Animated.spring(this.state.verticalPos, {
             toValue: finalValue,
-            friction: 8
+            friction: Platform.OS === 'ios' ? 9 : 8
           }).start();
     };
 
@@ -140,7 +142,7 @@ class PickerBox extends Component {
                         renderItem={this._renderItem}
                     />
                     <TouchableOpacity style={styles.btnVoltar} onPress={this._closePicker}>
-                        <Text style={[styles.text, {color: this.props.prevTextColor}]}>VOLTAR</Text>
+                        <Text style={[styles.text, {color: this.props.prevTextColor}]}>{ this.props.prevTextLabel }</Text>
                     </TouchableOpacity>
                 </Animated.View>
             </View>
@@ -151,7 +153,8 @@ class PickerBox extends Component {
 const styles = StyleSheet.create({
     container : {
         width,
-        bottom: -height
+        bottom: -height,
+        zIndex: 999
     },
     containerVisible : {
         height: height,

@@ -78,6 +78,7 @@ statusbar        | `boolean`  | `true`   | `No`      | StatusBar overlapping.
 itemTextColor    | `string`   | `#757379`| `No`      | Custom item text color.
 separatorColor   | `string`   | `#757379`| `No`      | Custom separator color.
 prevTextColor    | `string`   | `#572580`| `No`      | Custom button(prev) text color.
+prevTextLabel    | `string`   | `Cancel` | `No`      | Custom button(prev) text label.
 
 ### Methods
 Method Name | Arguments | Description
