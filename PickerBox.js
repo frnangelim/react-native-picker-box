@@ -153,7 +153,8 @@ class PickerBox extends Component {
 const styles = StyleSheet.create({
     container : {
         width,
-        bottom: -height
+        bottom: -height,
+        zIndex: 999
     },
     containerVisible : {
         height: height,
